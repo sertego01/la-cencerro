@@ -12,9 +12,13 @@ body {
   line-height: 1.6;
 }
 
+.gijon{
+  color: #ff0000;
+}
+
 /* Header */
 header {
-  background-color: #333;
+  background-color: #ff0000;
   color: #fff;
   padding: 1rem 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -22,41 +26,9 @@ header {
 
 header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 2rem;
-}
-
-header .logo {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-header img {
-  width: 50px; /* Ajusta el tamaño del logo */
-  height: auto; /* Mantiene la proporción del logo */
-  vertical-align: middle; /* Alinea verticalmente el logo con el texto */
-}
-
-header nav ul {
-  list-style-type: none;
-}
-
-header nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.1rem;
-  padding: 0.5rem;
-}
-
-header nav ul li a:hover {
-  background-color: #4caf50;
-  border-radius: 5px;
 }
 
 /* Hero Section */
@@ -99,7 +71,7 @@ header nav ul li a:hover {
 
 .cta-button {
   text-decoration: none;
-  background-color: #4caf50;
+  background-color: #ff0000;
   color: #fff;
   padding: 1rem 2rem;
   font-size: 1.2rem;
@@ -108,7 +80,9 @@ header nav ul li a:hover {
 }
 
 .cta-button:hover {
-  background-color: #45a049;
+  background-color: #ffffff;
+  color: #ff0000;
+  border: #ff0000 2px solid;
 }
 
 /* About Section */
@@ -148,8 +122,13 @@ footer p {
   text-align: center;
 }
 
-.viaje h2 {
+.viaje h1 {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.viaje h2 {
+  font-size: 2rem;
   color: #333;
   margin-bottom: 1rem;
 }
